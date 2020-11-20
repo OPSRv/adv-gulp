@@ -1,0 +1,29 @@
+.contact{
+    height: 400px;
+    h2{
+        
+        font-size: calc(2.175em + 6 * (100vw - 320px) / 880);
+    }
+    .contact_text{
+        span{
+        font-size: calc(1em + 6 * (100vw - 320px) / 880);
+        text-align: center;
+        color: #999999;
+    }
+
+    }
+    .btn {
+        background-color: rgb(37, 37, 37);
+        width: 180px;
+        height: 54px;
+        font-size: 14px;
+        font-family: "Work Sans";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 6;
+        text-align: left;
+        text-transform: uppercase;
+      
+    }
+      
+}

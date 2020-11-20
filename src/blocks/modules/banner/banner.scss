@@ -1,0 +1,26 @@
+.banner{
+    background-image: url(../img/banner/banner_bg.png);
+    height: 255px;
+    width: 100%;
+    justify-content: space-between;
+    .icon_banner{
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .wraper_icon{
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: center;
+    }
+    .banner_text{
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: center;
+        color: white;
+        padding: 10px;
+        .text_upper{
+            text-transform: uppercase;
+        }
+    }
+}
